@@ -1,0 +1,147 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-25T12:35:41.940Z",
+        "line": 4,
+        "name": "Myfirst scenario",
+        "description": "",
+        "id": "my-first-feature;myfirst-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4165021200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "start my browser \"https://www.google.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.google.com/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "googlesteps.start_my_browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1701739100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I give \"Alpesh\" in google",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alpesh\"",
+                  "offset": 7
+                }
+              ],
+              "location": "googlesteps.i_give_in_google(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 989000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should get linked in profile",
+            "match": {
+              "location": "googlesteps.i_should_get_linked_in_profile()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@ui"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-25T12:35:47.873Z",
+        "line": 10,
+        "name": "Myfirst scenario",
+        "description": "",
+        "id": "my-first-feature;myfirst-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3506181000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "start my browser \"https://www.google.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.google.com/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "googlesteps.start_my_browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2789390400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I give \"AARVI\" in google",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AARVI\"",
+                  "offset": 7
+                }
+              ],
+              "location": "googlesteps.i_give_in_google(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 367400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should get linked in profile",
+            "match": {
+              "location": "googlesteps.i_should_get_linked_in_profile()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regresssion"
+          }
+        ]
+      }
+    ],
+    "name": "My first feature",
+    "description": "",
+    "id": "my-first-feature",
+    "keyword": "Feature",
+    "uri": "file:/E:/sumita/Eclipse_project/src/test/resources/features/first.feature",
+    "tags": []
+  }
+]

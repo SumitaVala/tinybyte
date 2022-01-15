@@ -1,0 +1,503 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-09T12:25:18.101Z",
+        "line": 4,
+        "name": "To get activity using ID",
+        "description": "",
+        "id": "rest-api-testing;to-get-activity-using-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 48318300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "My API Server is up and Running",
+            "match": {
+              "location": "apistepdef.my_API_Server_is_up_and_Running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2273175300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i access \"GET\" REST API with url as \"https://$$DOMAIN_NAME$$/api/v1/Activities/15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"https://$$DOMAIN_NAME$$/api/v1/Activities/15\"",
+                  "offset": 36
+                }
+              ],
+              "location": "apistepdef.i_access_REST_API_with_url_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5176400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it should give me \"200\" response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 18
+                }
+              ],
+              "location": "apistepdef.it_should_give_me_response(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2048000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "response should contain below value",
+            "match": {
+              "location": "apistepdef.response_should_contain_below_value(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id\u003d5"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-09T12:25:20.603Z",
+        "line": 12,
+        "name": "Create Activity",
+        "description": "",
+        "id": "rest-api-testing;create-activity",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 523000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "My API Server is up and Running",
+            "match": {
+              "location": "apistepdef.my_API_Server_is_up_and_Running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 800598100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "i access \"POST\" REST API with url as \"https://$$DOMAIN_NAME$$/api/v1/Activities\" and data from \"Activities.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"https://$$DOMAIN_NAME$$/api/v1/Activities\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Activities.json\"",
+                  "offset": 95
+                }
+              ],
+              "location": "apistepdef.i_access_REST_API_with_url_as_and_data_from(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1798300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "it should give me \"200\" response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 18
+                }
+              ],
+              "location": "apistepdef.it_should_give_me_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-09T12:25:21.412Z",
+        "line": 19,
+        "name": "Create Author",
+        "description": "",
+        "id": "rest-api-testing;create-author",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1439900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "My API Server is up and Running",
+            "match": {
+              "location": "apistepdef.my_API_Server_is_up_and_Running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 801124900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "i access \"POST\" REST API with url as \"https://$$DOMAIN_NAME$$/api/v1/Authors\" and data from \"Author.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"https://$$DOMAIN_NAME$$/api/v1/Authors\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Author.json\"",
+                  "offset": 92
+                }
+              ],
+              "location": "apistepdef.i_access_REST_API_with_url_as_and_data_from(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1509900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "it should give me \"200\" response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 18
+                }
+              ],
+              "location": "apistepdef.it_should_give_me_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-09T12:25:22.225Z",
+        "line": 26,
+        "name": "To Get Book detail",
+        "description": "",
+        "id": "rest-api-testing;to-get-book-detail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1376700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "My API Server is up and Running",
+            "match": {
+              "location": "apistepdef.my_API_Server_is_up_and_Running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 790748500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "i access \"POST\" REST API with url as \"https://$$DOMAIN_NAME$$/api/v1/Books\" and data from \"Book.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"https://$$DOMAIN_NAME$$/api/v1/Books\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Book.json\"",
+                  "offset": 90
+                }
+              ],
+              "location": "apistepdef.i_access_REST_API_with_url_as_and_data_from(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1525200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "it should give me \"200\" response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 18
+                }
+              ],
+              "location": "apistepdef.it_should_give_me_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-09T12:25:23.029Z",
+        "line": 32,
+        "name": "To Update Book detail",
+        "description": "",
+        "id": "rest-api-testing;to-update-book-detail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1423900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "My API Server is up and Running",
+            "match": {
+              "location": "apistepdef.my_API_Server_is_up_and_Running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 774440700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "i access \"PUT\" REST API with url as \"https://$$DOMAIN_NAME$$/api/v1/Books/5\" and data from \"Book_update.json\" to update the record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PUT\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"https://$$DOMAIN_NAME$$/api/v1/Books/5\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Book_update.json\"",
+                  "offset": 91
+                }
+              ],
+              "location": "apistepdef.i_access_REST_API_with_url_as_and_data_from_to_update_the_record(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1518400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "it should give me \"200\" response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 18
+                }
+              ],
+              "location": "apistepdef.it_should_give_me_response(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1290400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "response should get contain below value",
+            "match": {
+              "location": "apistepdef.response_should_get_contain_below_value()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-09T12:25:23.820Z",
+        "line": 39,
+        "name": "To Delete Book detail",
+        "description": "",
+        "id": "rest-api-testing;to-delete-book-detail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2002600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "My API Server is up and Running",
+            "match": {
+              "location": "apistepdef.my_API_Server_is_up_and_Running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 804434900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "i DELETE Record REST API with url as \"https://$$DOMAIN_NAME$$/api/v1/Books/5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://$$DOMAIN_NAME$$/api/v1/Books/5\"",
+                  "offset": 37
+                }
+              ],
+              "location": "apistepdef.i_DELETE_Record_REST_API_with_url_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1644900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "it should give me \"200\" response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 18
+                }
+              ],
+              "location": "apistepdef.it_should_give_me_response(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1192000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "response should get contain below value",
+            "match": {
+              "location": "apistepdef.response_should_get_contain_below_value()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "REST API testing",
+    "description": "",
+    "id": "rest-api-testing",
+    "keyword": "Feature",
+    "uri": "file:/E:/sumita/Eclipse_project/src/test/resources/features/third.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
