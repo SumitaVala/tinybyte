@@ -14,7 +14,7 @@ public class FileHelper {
 	 * "/src/test/resources/artifacts/Activities.json"; String filepath =
 	 * System.getProperty("user.dir")+"/src/test/resources/artifacts/Author.json";
 	 * 
-	 * test
+	 * 
 	 * 
 	 * String aaa= getFiledata_as_string(filepath); System.out.println(aaa);
 	 * 
